@@ -1,0 +1,5 @@
+cisco v18 ios http://example.com/cisco 192.168.1.55
+ juniper v87 junos http://example.org/juniper 10.0.2.3
+ cisco v17 ios http://example.com/cisco 192.168.70.11
+ arista v12 eos http://example.com/arista 10.2.3.1
+ meraki v5 aki http://example.com/meraki 10.0.100.1
