@@ -13,6 +13,8 @@ on a live system.
 What things you need to install the software and how to install them. For now, maybe copy in
 how to install python and python3 using apt.
 
+Also, a good idea to have quick bourbon of your choice from Buffalo Trace
+
 ## Built With
 
 * [Python](https://www.python.org/) - The coding language used
