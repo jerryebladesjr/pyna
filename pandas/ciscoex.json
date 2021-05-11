@@ -1,0 +1,12 @@
+{
+  "values": [1],
+  "dstypes": ["counter"],
+  "dsnames": ["value"],
+  "time": 1515406938.687,
+  "interval": 10.000,
+  "host": "vtc-master-192.168.133.126",
+  "plugin": "tenants",
+  "plugin_instance": "",
+  "type": "vtep",
+  "type_instance": "vtep1"
+}
