@@ -28,10 +28,14 @@ def main():
         # increase the counter by 1
         linecount += 1
 
-
+    with open("satellite_names.txt", "w+") as myf:
     # display the list of satellites
-    print(satellitenames)
+    #print(satellitenames)
     # display some stats
+        for line in satellitenames :
+            myf.write(line + "\n")
+        myf.close()
+
     print(f"\nThe number of satellites tracked is {len(satellitenames)}")
 
 if __name__ == "__main__":
