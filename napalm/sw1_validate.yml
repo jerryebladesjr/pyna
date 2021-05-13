@@ -1,0 +1,12 @@
+---
+- get_facts:
+    os_version: 4.22.0F-12170486.4220F #the actual version is much longer than  this, so this will result in a "False"
+
+
+- get_interfaces_ip:
+    Management1:
+      ipv4:
+        10.1.132.89:
+          prefix_length: 12
+          _mode: strict
+
