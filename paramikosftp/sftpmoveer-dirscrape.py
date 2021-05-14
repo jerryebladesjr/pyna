@@ -39,7 +39,7 @@ def main():
         sftpsession.put("slurm.cola", "/home/" + cred.get("un") + "/slurm.kola")
 
         # display the current working directory of remote system
-        working_dir = sftpsession.listdir()
+        working_dir = sftpsession.listdir(path='./slurm*')
 
         print("Files in the remote home directory:")
         for onefile in working_dir:
@@ -47,6 +47,8 @@ def main():
             # filter out IF it begins with a "."
             if "." not in onefile[0]:
                 print(onefile)
+
+            print(onefile)
 
         ## close SFTP and SSH connection
         sftpsession.close()
